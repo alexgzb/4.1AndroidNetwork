@@ -1,0 +1,166 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewYoutubeLinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/youtubeLinks"
+        android:textSize="@dimen/abc_text_size_large_material" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutYoutubeLinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewYoutubeLinks"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewYoutubeLink1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/youtubeLink1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColorLink="#3399FF" />
+
+        <TextView
+            android:id="@+id/textViewYoutubeLink2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/youtubeLink2"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColorLink="#3399FF" />
+
+        <TextView
+            android:id="@+id/textViewYoutubeLink3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/youtubeLink3"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColorLink="#3399FF" />
+
+        <TextView
+            android:id="@+id/textViewLink4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/youtubeLink4"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColorLink="#3399FF" />
+
+        <TextView
+            android:id="@+id/textViewLink5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/youtubeLink5"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColorLink="#3399FF" />
+
+        <TextView
+            android:id="@+id/textViewYoutubeLink6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/youtubeLink6"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:clickable="true"
+            android:onClick="youtubeLink"
+            android:linksClickable="false"
+            android:autoLink="all"
+            android:textColor="#3399FF" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewBrowserLinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayoutYoutubeLinks"
+        android:layout_marginTop="25dp"
+        android:text="@string/browserLinks"
+        android:textSize="@dimen/abc_text_size_large_material" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutBrowserLinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewBrowserLinks"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewBrowserLink1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:onClick="browserLink"
+            android:text="@string/browserLink1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:clickable="true"
+            android:textColor="#3399FF" />
+
+        <TextView
+            android:id="@+id/textViewBrowserLink2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/browserLink2"
+            android:onClick="browserLink"
+            android:clickable="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:autoText="false"
+            android:textColor="#3399FF" />
+
+        <TextView
+            android:id="@+id/textViewBrowserLink3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/browserLink3"
+            android:onClick="browserLink"
+            android:clickable="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#3399FF"/>
+
+        <TextView
+            android:id="@+id/textViewBrowserLink4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/browserLink4"
+            android:onClick="browserLink"
+            android:clickable="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#3399FF" />
+
+        <TextView
+            android:id="@+id/textViewBrowserLink5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/browserLink5"
+            android:onClick="browserLink"
+            android:clickable="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#3399FF"/>
+    </LinearLayout>
+
+</RelativeLayout>

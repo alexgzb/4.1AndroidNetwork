@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">App4.1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="youtubeLinks">Youtube Links</string>
+    <string name="browserLinks">Browser Links</string>
+    <string name="youtubeLink1"><a href="http://youtu.be/6mEfDSP4g_U">Ray Lamontagne - Crazy</a></string>
+    <string name="youtubeLink2"><a href="https://www.youtube.com/watch?v=sKezJpC9BbM">Lo-Fang - When We\'re Fire (Cello Version) </a></string>
+    <string name="youtubeLink3"><a href="https://www.youtube.com/watch?v=NV5mBGUMtqs">James Arthur - Tulisa\'s Young </a></string>
+    <string name="youtubeLink4"><a href="https://www.youtube.com/watch?v=Lh2oWbaRvQg">James Arthur - Impossible</a></string>
+    <string name="youtubeLink5"><a href="https://www.youtube.com/watch?v=5ChbxMVgGV4">Pearl Jam - Black (Unplugged 1992)</a></string>
+    <string name="youtubeLink6"><u>k1U6uNCSJyM</u></string>
+    <string name="title_activity_browser">Browser</string>
+    <string name="browserLink1"><u>http://developer.android.com/</u></string>
+    <string name="browserLink2"><u>http://google.se</u></string>
+    <string name="browserLink3"><u>http://stackoverflow.com/</u></string>
+    <string name="browserLink4"><u>http://people.dsv.su.se/~pierre/courses/i.cgi</u></string>
+    <string name="browserLink5"><u>http://requestb.in/</u></string>
+    <string name="go">Go</string>
+
+</resources>

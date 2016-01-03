@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gezelbom.app41.BrowserActivity">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/textViewUrl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:editable="true"
+            android:layout_gravity="start"
+            android:textAlignment="viewStart"
+            android:inputType="textWebEditText"/>
+
+        <Button
+            android:id="@+id/button_go"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:text="@string/go"
+            android:onClick="go"/>
+    </FrameLayout>
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:keepScreenOn="true" />
+
+</RelativeLayout>
